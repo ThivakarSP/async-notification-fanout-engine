@@ -20,7 +20,7 @@ services:
       - redis_data:/data
 
   kafka:
-    image: bitnami/kafka:3.5
+    image: soldevelo/kafka:3.5
     environment:
       # KRaft settings
       - KAFKA_CFG_NODE_ID=0
